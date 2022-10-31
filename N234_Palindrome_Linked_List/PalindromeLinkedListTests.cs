@@ -1,19 +1,8 @@
 namespace N234_Palindrome_Linked_List
 {
-
-    public class ListNode
-    {
-        public int Val;
-        public ListNode Next;
-
-        public ListNode(int val = 0, ListNode next = null)
-        {
-            this.Val = val;
-            this.Next = next;
-        }
-    }
-
-    public class Solution
+    using Stuff;
+    
+    public sealed class PalindromeLinkedListTests
     {
         public bool IsPalindrome(ListNode head)
         {
@@ -21,22 +10,22 @@ namespace N234_Palindrome_Linked_List
             var list = new List<int>();
             var start = head;
 
-            ListNode node = head;
+            var node = head;
             while (node != null)
             {
-                list.Add(node.Val);
-                node = node.Next;
+                list.Add(node.val);
+                node = node.next;
             }
 
             node = start;
             for (var i = list.Count - 1; i >= 0; i--)
             {
-                if (list[i] != node.Val)
+                if (list[i] != node.val)
                 {
                     return false;
                 }
 
-                node = node.Next;
+                node = node.next;
             }
 
             return true;
