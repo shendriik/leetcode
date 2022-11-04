@@ -24,6 +24,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N1_Two_Sum", "N1_Two_Sum\N1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N20_Valid_Parentheses", "N20_Valid_Parentheses\N20_Valid_Parentheses.csproj", "{B85958FF-C12D-4443-9134-8AD19242E943}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N21_Merge_Two_Sorted_Lists", "N21_Merge_Two_Sorted_Lists\N21_Merge_Two_Sorted_Lists.csproj", "{88E1E1D6-DF54-4520-8F42-21A1ADF0FDD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N53_Maximum_Subarray", "N53_Maximum_Subarray\N53_Maximum_Subarray.csproj", "{E8DC7A07-CA83-49A0-A2A4-91FBA8D10F64}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -74,6 +78,14 @@ Global
 		{B85958FF-C12D-4443-9134-8AD19242E943}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B85958FF-C12D-4443-9134-8AD19242E943}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B85958FF-C12D-4443-9134-8AD19242E943}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88E1E1D6-DF54-4520-8F42-21A1ADF0FDD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88E1E1D6-DF54-4520-8F42-21A1ADF0FDD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88E1E1D6-DF54-4520-8F42-21A1ADF0FDD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88E1E1D6-DF54-4520-8F42-21A1ADF0FDD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8DC7A07-CA83-49A0-A2A4-91FBA8D10F64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8DC7A07-CA83-49A0-A2A4-91FBA8D10F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8DC7A07-CA83-49A0-A2A4-91FBA8D10F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8DC7A07-CA83-49A0-A2A4-91FBA8D10F64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{94FC9BBB-2CB8-4DB5-9429-A0DC36EA9C88} = {A3D62894-9E63-4643-90DC-9B456D1067AC}

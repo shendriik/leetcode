@@ -1,7 +1,8 @@
 ﻿namespace Stuff
 {
     using System;
-    
+    using System.Text;
+
     public class ListNode : IEquatable<ListNode>
     {
         public int val;
@@ -35,6 +36,19 @@
             }
 
             return x == null && y == null;
+        }
+
+        public override string ToString()
+        {
+            var x = this;
+            var builder = new StringBuilder();
+            while (x != null)
+            {
+                builder.Append($"{x.val}->");
+                x = x.next;
+            }
+
+            return builder.ToString();
         }
     }
 }
