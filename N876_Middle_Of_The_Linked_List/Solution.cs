@@ -3,7 +3,7 @@ namespace N876_Middle_Of_The_Linked_List
     using Stuff;
     using NUnit.Framework;
 
-    internal sealed class LinkedListMiddleTests
+    internal sealed class Solution
     {
         public static IEnumerable<TestCaseData> TestCases()
         {

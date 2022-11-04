@@ -2,7 +2,7 @@ namespace N1337_The_K_Weakest_Rows_in_Matrix
 {
     using NUnit.Framework;
 
-    public class Tests
+    public class Solution
     {
         public static IEnumerable<TestCaseData> TestCases()
         {

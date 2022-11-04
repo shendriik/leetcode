@@ -2,7 +2,7 @@ namespace N234_Palindrome_Linked_List
 {
     using Stuff;
     
-    public sealed class PalindromeLinkedListTests
+    public sealed class Solution
     {
         public bool IsPalindrome(ListNode head)
         {
