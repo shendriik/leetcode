@@ -1,5 +1,7 @@
 namespace N13_Roman_to_integer
 {
+    using NUnit.Framework;
+
     public class Solution {
     
         private Dictionary<char,int> map = new Dictionary<char,int>
@@ -32,6 +34,14 @@ namespace N13_Roman_to_integer
             }
         
             return result;
+        }
+
+        [TestCase("II", ExpectedResult = 2)]
+        [TestCase("IV", ExpectedResult = 4)]
+        [TestCase("XIV", ExpectedResult = 14)]
+        public int RomanToIntTest(string s)
+        {
+            return RomanToInt(s);
         }
     }
 }
